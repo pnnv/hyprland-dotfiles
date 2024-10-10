@@ -1,0 +1,21 @@
+2024-10-09 20:23:14.026 [error] Cannot read properties of undefined (reading 'activate'): TypeError: Cannot read properties of undefined (reading 'activate')
+    at F.centerLayout (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2583:69092)
+    at G.centerMainEditorLayout (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2633:128196)
+    at h.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2633:100692)
+    at l._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:100:910)
+    at l._deliverQueue (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:100:1001)
+    at l.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:100:1336)
+    at F.doSetGridWidget (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2583:70794)
+    at F.doCreateGridControlWithState (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2583:70324)
+    at F.doCreateGridControlWithPreviousState (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2583:69656)
+    at F.doCreateGridControl (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2583:69289)
+    at F.createContentArea (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2583:66372)
+    at F.create (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:831:94290)
+    at G.renderWorkbench (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2633:165283)
+    at vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2633:161574
+    at g.invokeFunction (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:666:1015)
+    at G.startup (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2633:160997)
+    at te.open (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:136188)
+    at async R (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:4:7165)
+2024-10-09 20:23:14.267 [info] Started local extension host with pid 66555.
+2024-10-09 20:23:15.488 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue

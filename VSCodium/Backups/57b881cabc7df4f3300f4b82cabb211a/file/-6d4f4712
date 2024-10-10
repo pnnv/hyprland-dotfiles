@@ -1,0 +1,53 @@
+file:///home/pranav/afn.im/src/components/molecules/Socials.svelte {"mtime":1718803335477,"ctime":1718801726700,"size":817,"etag":"3cihe6rkkqb","orphaned":false,"typeId":""}
+<script>
+	import Social from '../atoms/Social.svelte';
+	import { user } from '../../util/discord';
+
+	import { GitHubIcon } from '@indaco/svelte-iconoir/github';
+	import { DiscordIcon } from '@indaco/svelte-iconoir/discord';
+	import { MailIcon } from '@indaco/svelte-iconoir/mail';
+	import { CoffeeCupIcon } from '@indaco/svelte-iconoir/coffee-cup';
+</script>
+
+<div class="socials-container">
+	<Social tip="pnnv" link="https://github.com/pnnv">
+		<GitHubIcon color="var(--accent)" />
+	</Social>
+
+	<Social tip=pranav2 link={`https://discord.com/users/pranav2`}>
+		<DiscordIcon color="var(--accent)" />
+	</Social>
+
+	<Social tip="prahlad.exe@gmail.com" link="mailto:prahlad.exe@gmail.com">
+		<MailIcon color="var(--accent)" />
+	</Social>
+</div>
+
+<style>
+	.socials-container {
+		display: flex;
+		gap: 0.75rem;
+	}
+</style>
+
+
+<!-- 
+
+Dear Hiring Manager,
+
+I am writing to express my keen interest in the Google Internship program, particularly for positions that leverage my skills in problem-solving and competitive programming. As a 3rd at National Institute of Technology Raipur with a strong academic background and a drive to innovate, I am confident that I can be a valuable asset to your team.
+
+Beyond academics, my passion for problem-solving fuels my participation in competitive programming. This experience has honed my analytical skills, logical thinking, and ability to develop efficient algorithms.  I am proficient in C++, Python, and Java, and enjoy tackling complex challenges in a competitive environment.
+
+I am particularly interested in Software Development and cyber security. I believe my technical background, problem-solving skills, and eagerness to learn make me a perfect fit for a Google internship.
+
+I have attached my resume for your review, which further details my qualifications. Thank you for your time and consideration. I am eager to learn more about the internship program and how I can contribute to Google's innovative culture.
+
+Sincerely,
+
+Prahlad Khairnar
+
+
+
+
+-->

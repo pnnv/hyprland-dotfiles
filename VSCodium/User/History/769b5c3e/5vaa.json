@@ -1,0 +1,22 @@
+[
+  {
+      "platform": "CodeForces",
+      "link": "https://github.com/username",
+      "username": "user1"
+  },
+  {
+      "platform": "CodeChef",
+      "link": "https://twitter.com/username",
+      "username": "user2"
+  },
+  {
+      "platform": "AtCoder",
+      "link": "https://linkedin.com/in/username",
+      "username": "user3"
+  },
+  {
+      "platform": "Leetcode",
+      "link": "https://facebook.com/username",
+      "username": "user4"
+  }
+]

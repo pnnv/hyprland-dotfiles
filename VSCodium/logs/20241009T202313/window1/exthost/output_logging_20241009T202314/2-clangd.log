@@ -1,0 +1,64 @@
+I[20:23:14.935] clangd version 16.0.2 (https://github.com/llvm/llvm-project 18ddebe1a1a9bde349441631365f0472e9693520)
+I[20:23:14.935] Features: linux+grpc
+I[20:23:14.936] PID: 66618
+I[20:23:14.936] Working directory: /home/pranav/code
+I[20:23:14.936] argv[0]: /home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/bin/clangd
+I[20:23:14.938] Starting LSP over stdin/stdout
+I[20:23:14.944] <-- initialize(0)
+I[20:23:14.954] --> reply:initialize(0) 10 ms
+I[20:23:14.957] <-- initialized
+I[20:23:14.961] <-- textDocument/didOpen
+I[20:23:14.965] <-- textDocument/didOpen
+I[20:23:14.965] Failed to find compilation database for /home/pranav/code/Replace_With_First.cpp
+I[20:23:14.965] ASTWorker building file /home/pranav/code/Replace_With_First.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Replace_With_First.cpp
+I[20:23:14.965] <-- textDocument/didOpen
+I[20:23:14.965] Failed to find compilation database for /home/pranav/code/tmp.cpp
+I[20:23:14.966] ASTWorker building file /home/pranav/code/tmp.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/tmp.cpp
+I[20:23:14.966] <-- textDocument/didOpen
+I[20:23:14.966] Failed to find compilation database for /home/pranav/code/295B.cpp
+I[20:23:14.966] ASTWorker building file /home/pranav/code/295B.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/295B.cpp
+I[20:23:14.966] <-- textDocument/didOpen
+I[20:23:14.966] Failed to find compilation database for /home/pranav/code/Triangle_Count_Easy.cpp
+I[20:23:14.966] ASTWorker building file /home/pranav/code/Triangle_Count_Easy.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Triangle_Count_Easy.cpp
+I[20:23:14.966] <-- textDocument/didOpen
+I[20:23:14.966] Failed to find compilation database for /home/pranav/code/Add_1_or_2_Game.cpp
+I[20:23:14.966] ASTWorker building file /home/pranav/code/Add_1_or_2_Game.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Add_1_or_2_Game.cpp
+I[20:23:14.966] Failed to find compilation database for /home/pranav/code/Count_Winning_Subarrays.cpp
+I[20:23:14.966] ASTWorker building file /home/pranav/code/Count_Winning_Subarrays.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Count_Winning_Subarrays.cpp
+I[20:23:14.993] --> textDocument/clangd.fileStatus
+I[20:23:14.993] --> textDocument/clangd.fileStatus
+I[20:23:14.993] --> textDocument/clangd.fileStatus
+I[20:23:14.993] --> textDocument/clangd.fileStatus
+I[20:23:14.993] --> textDocument/clangd.fileStatus
+I[20:23:14.993] --> textDocument/clangd.fileStatus
+I[20:23:15.432] <-- textDocument/documentLink(1)
+I[20:23:15.432] <-- textDocument/inlayHint(2)
+I[20:23:15.546] <-- textDocument/codeAction(3)
+I[20:23:15.602] <-- $/cancelRequest
+I[20:23:15.607] <-- $/cancelRequest
+I[20:23:15.607] <-- textDocument/codeAction(4)
+I[20:23:15.653] <-- $/setTrace
+I[20:23:15.653] unhandled notification $/setTrace
+I[20:23:15.653] <-- textDocument/foldingRange(5)
+I[20:23:15.653] <-- textDocument/documentLink(6)
+I[20:23:15.654] --> reply:textDocument/foldingRange(5) 1 ms
+I[20:23:15.768] <-- $/setTrace
+I[20:23:15.768] unhandled notification $/setTrace
+I[20:23:15.884] <-- $/setTrace
+I[20:23:15.884] unhandled notification $/setTrace
+I[20:23:15.895] <-- $/cancelRequest
+I[20:23:15.895] <-- textDocument/codeAction(7)
+I[20:23:15.895] <-- $/cancelRequest
+I[20:23:15.895] <-- textDocument/codeAction(8)

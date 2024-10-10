@@ -1,0 +1,16 @@
+2024-10-10 00:52:15.075 [info] update#setState disabled
+2024-10-10 00:52:15.077 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-10 15:21:25.824 [error] CodeWindow: renderer process gone (reason: killed, code: 9)
+2024-10-10 15:21:25.972 [info] Extension host with pid 21422 exited with code: 0, signal: unknown.
+2024-10-10 15:21:27.558 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072187550000, signal: unknown
+2024-10-10 18:06:36.686 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-10 19:28:46.141 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-10 19:40:51.825 [error] CodeWindow: renderer process gone (reason: killed, code: 9)
+2024-10-10 19:40:51.921 [info] Extension host with pid 40362 exited with code: 0, signal: unknown.
+2024-10-10 19:40:58.423 [error] [uncaught exception in main]: TypeError: Object has been destroyed
+2024-10-10 19:40:58.423 [error] TypeError: Object has been destroyed
+    at /opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:117:115563
+    at App.de (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:39:33684)
+    at App.emit (node:events:531:35)
+    at BrowserWindow.<anonymous> (node:electron/js2c/browser_init:2:11864)
+    at BrowserWindow.emit (node:events:531:35)

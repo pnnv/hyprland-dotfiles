@@ -1,0 +1,9 @@
+file:///home/pranav/afn.im/src/util/discord.ts {"mtime":1718801726701,"ctime":1718801726701,"size":177,"etag":"3cihbrsmj5m","orphaned":false,"typeId":""}
+class DiscordUser {
+    constructor( 
+      public username: string, 
+      public id: string 
+    ) {}
+  }
+  
+  export let user = new DiscordUser("pranav2", '420043923822608384');

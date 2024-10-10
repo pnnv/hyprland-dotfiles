@@ -1,0 +1,15 @@
+2024-10-10 15:21:28.169 [info] Started local extension host with pid 40362.
+2024-10-10 15:21:29.625 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-10-10 15:21:31.005 [info] [perf] Render performance baseline is 30ms
+2024-10-10 16:03:09.582 [error] Uncaught NetworkError: Failed to execute 'importScripts' on 'WorkerGlobalScope': The script at 'vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/base/worker/workerMain.js#TextEditorWorker' failed to load.
+2024-10-10 17:34:32.921 [error] [object Event]: Error: [object Event]
+    at Object._ [as ensureError] (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:1:3353)
+    at f._createLoadError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:3:7347)
+    at f._onLoadError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:3:7446)
+    at o (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:3:9106)
+    at Object.errorback (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:3:9481)
+    at _.triggerErrorback (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:1:9352)
+    at vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:1:9103
+    at HTMLScriptElement.d (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:1:9499)
+2024-10-10 18:06:37.730 [error] Uncaught NetworkError: Failed to execute 'importScripts' on 'WorkerGlobalScope': The script at 'vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/base/worker/workerMain.js#TextEditorWorker' failed to load.
+2024-10-10 19:30:33.904 [error] Uncaught NetworkError: Failed to execute 'importScripts' on 'WorkerGlobalScope': The script at 'vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/base/worker/workerMain.js#TextEditorWorker' failed to load.

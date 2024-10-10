@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	
+	int n, k; cin >> n >> k;
+	vector <vector <int>> t(n);
+	for(int i = 0; i < n - 1; i++) {
+		int a, b; cin >> a >> b;
+		t[--a].push_back(--b);
+		t[b].push_back(a);
+	}
+
+	vector <vector <int>> d(n, vector <int> (k + 1));
+	for (int i = 0; i < n; i++) d[n][0] = 1;
+
+	ll fin = 0;
+	function <void (int, int)> dfs = [&](int p, int c) {
+		for(auto i: t[c]) {
+			if(i != p) {
+				dfs(c, i);
+				for(int j = 1; j <= k; j++) 
+					d[c][j] += d[i][j - 1];
+				for(int j = 0; j <= (k >> 1); j++) 
+					fin += d[c][j] * d[c][k - j];
+			}
+		}
+	}; dfs(-1, 0);
+
+	cout << fin << '\n';
+}

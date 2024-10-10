@@ -1,0 +1,12 @@
+2024-10-10 20:19:11.794 [info] Extension host with pid 6365 started
+2024-10-10 20:19:11.811 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-10 20:19:11.816 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-10-10 20:19:11.846 [info] ExtensionService#_doActivateExtension DivyanshuAgrawal.competitive-programming-helper, startup: true, activationEvent: '*'
+2024-10-10 20:19:11.905 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-10 20:19:11.969 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-10 20:19:12.028 [info] Eager extensions activated
+2024-10-10 20:19:12.035 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 20:19:12.037 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 20:19:12.054 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 20:19:14.075 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-10 20:19:14.078 [info] Extension host with pid 6365 exiting with code 0

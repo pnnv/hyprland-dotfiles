@@ -1,0 +1,37 @@
+file:///home/pranav/code/tmp.cpp {"mtime":1728135465765,"ctime":1727189757061,"size":205,"etag":"3d58dhnfo6j","orphaned":false,"typeId":""}
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+void solve() {
+	
+}
+
+
+void main_() {
+	ios::sync_with_stdio(false); cin.tie(0);
+    int t; cin>>t;
+    for(int i=1;i<=t;i++){
+        cout<<"Case #"<<i<<": ";
+        solve();
+    }
+}
+static void run_with_stack_size(void (*func)(void), size_t stsize) {
+    char *stack, *send;
+    stack = (char *)malloc(stsize);
+    send = stack + stsize - 16;
+    send = (char *)((uintptr_t)send / 16 * 16);
+    asm volatile(
+        "mov %%esp, (%0)\n"
+        "mov %0, %%esp\n"
+        :
+        : "r"(send));
+    func();
+    asm volatile("mov (%0), %%esp\n" : : "r"(send));
+    free(stack);
+}
+int main() {
+    run_with_stack_size(main_, 1024 * 1024 * 1024); // run with a 1 GiB stack
+    return 0;
+}

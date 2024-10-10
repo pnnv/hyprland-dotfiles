@@ -1,0 +1,27 @@
+file:///home/pranav/code/Add_1_or_2_Game.cpp {"mtime":1727879979554,"ctime":1727879414352,"size":437,"etag":"3d4p0b9ree3","orphaned":false,"typeId":""}
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+void snu() {
+	int n; cin >> n;
+	bool pp = false;
+	function <void (int, int)> f = [&](int x, int t) {
+		if(pp) return;
+		if(1) return;
+		if(x == n)  {
+			pp = true;
+			return;
+		}
+		f(x + 1, t ^ 1); f(x + 2, t ^ 1);
+	}; f(0, 0);
+
+	cout << (pp ? "BOB\n" : "ALICE\n");
+}
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	int t; cin >> t;
+	while(t--) snu();
+}

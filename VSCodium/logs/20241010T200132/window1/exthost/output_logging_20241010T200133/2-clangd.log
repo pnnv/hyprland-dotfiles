@@ -1,0 +1,99 @@
+I[20:01:34.309] clangd version 16.0.2 (https://github.com/llvm/llvm-project 18ddebe1a1a9bde349441631365f0472e9693520)
+I[20:01:34.309] Features: linux+grpc
+I[20:01:34.309] PID: 77237
+I[20:01:34.309] Working directory: /home/pranav/code
+I[20:01:34.309] argv[0]: /home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/bin/clangd
+I[20:01:34.310] Starting LSP over stdin/stdout
+I[20:01:34.311] <-- initialize(0)
+I[20:01:34.319] --> reply:initialize(0) 7 ms
+I[20:01:34.321] <-- initialized
+I[20:01:34.329] <-- textDocument/didOpen
+I[20:01:34.333] Failed to find compilation database for /home/pranav/code/273278C.cpp
+I[20:01:34.334] ASTWorker building file /home/pranav/code/273278C.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/273278C.cpp
+I[20:01:34.334] <-- textDocument/didOpen
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/tmp.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/tmp.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/tmp.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/295B.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/295B.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/295B.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/Array_Concatanation.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/Array_Concatanation.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Array_Concatanation.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/E_Toward_0.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] ASTWorker building file /home/pranav/code/E_Toward_0.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/E_Toward_0.cpp
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/Triangle_Count_Easy.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/Triangle_Count_Easy.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Triangle_Count_Easy.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/273278B.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] ASTWorker building file /home/pranav/code/273278B.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/273278B.cpp
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/Add_1_or_2_Game.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/Add_1_or_2_Game.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Add_1_or_2_Game.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/Prefix_Suffix_Min_Max.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/Prefix_Suffix_Min_Max.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Prefix_Suffix_Min_Max.cpp
+I[20:01:34.335] <-- textDocument/didOpen
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/E_Minimize_Sum_of_Distances.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/E_Minimize_Sum_of_Distances.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/E_Minimize_Sum_of_Distances.cpp
+I[20:01:34.335] Failed to find compilation database for /home/pranav/code/Count_Winning_Subarrays.cpp
+I[20:01:34.335] ASTWorker building file /home/pranav/code/Count_Winning_Subarrays.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Count_Winning_Subarrays.cpp
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.345] --> textDocument/clangd.fileStatus
+I[20:01:34.781] <-- textDocument/documentLink(1)
+I[20:01:34.781] <-- textDocument/inlayHint(2)
+I[20:01:35.064] <-- textDocument/codeAction(3)
+I[20:01:35.068] <-- textDocument/foldingRange(4)
+I[20:01:35.068] <-- $/setTrace
+I[20:01:35.068] unhandled notification $/setTrace
+I[20:01:35.082] --> reply:textDocument/foldingRange(4) 14 ms
+I[20:01:35.164] <-- $/cancelRequest
+I[20:01:35.164] <-- $/cancelRequest
+I[20:01:35.164] <-- textDocument/codeAction(5)
+I[20:01:35.219] <-- textDocument/documentLink(6)
+I[20:01:35.233] <-- $/cancelRequest
+I[20:01:35.233] <-- textDocument/codeAction(7)
+I[20:01:35.233] <-- $/cancelRequest
+I[20:01:35.233] <-- textDocument/codeAction(8)
+I[20:01:35.340] <-- $/setTrace
+I[20:01:35.340] unhandled notification $/setTrace
+I[20:01:35.355] <-- $/cancelRequest
+I[20:01:35.355] <-- textDocument/inlayHint(9)
+I[20:01:35.503] <-- $/setTrace
+I[20:01:35.503] unhandled notification $/setTrace
+I[20:01:36.221] <-- $/setTrace
+I[20:01:36.226] unhandled notification $/setTrace
+I[20:01:36.248] Indexing c++17 standard library in the context of /home/pranav/code/273278C.cpp

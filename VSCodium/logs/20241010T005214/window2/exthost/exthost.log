@@ -1,0 +1,21 @@
+2024-10-10 15:21:28.657 [info] Extension host with pid 40362 started
+2024-10-10 15:21:28.657 [info] Skipping acquiring lock for /home/pranav/.config/VSCodium/User/workspaceStorage/dae29ae927dce2d63420b229d29f72a4.
+2024-10-10 15:21:28.741 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-10 15:21:28.751 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2024-10-10 15:21:29.253 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-10 15:21:29.256 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-10-10 15:21:29.302 [info] ExtensionService#_doActivateExtension DivyanshuAgrawal.competitive-programming-helper, startup: true, activationEvent: '*'
+2024-10-10 15:21:29.329 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-10 15:21:29.358 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-10 15:21:29.513 [info] Eager extensions activated
+2024-10-10 15:21:29.558 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 15:21:29.562 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 15:21:29.572 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 15:21:30.692 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2024-10-10 15:21:30.692 [error] {"_isCancelled":true,"_emitter":null}
+2024-10-10 15:21:30.695 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2024-10-10 15:21:30.695 [error] {"_isCancelled":true,"_emitter":null}
+2024-10-10 15:21:30.695 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2024-10-10 15:21:30.695 [error] {"_isCancelled":true,"_emitter":null}
+2024-10-10 19:40:51.776 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-10 19:40:51.800 [info] Extension host with pid 40362 exiting with code 0

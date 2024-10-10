@@ -1,0 +1,16 @@
+file:///home/pranav/afn.im/src/app.html {"mtime":1718801726699,"ctime":1718801726699,"size":327,"etag":"3cihbrsmhah","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link id="fav" rel="icon" href="/favicon.webp" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="prahlad's personal website">
+		%sveltekit.head%
+	</head>
+	<body>
+		<div>
+			%sveltekit.body%
+		</div>
+	</body>
+</html>

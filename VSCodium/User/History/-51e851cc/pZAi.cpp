@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	int n; cin >> n;
+	vector <vector <int>> t(n);
+	for (int i = 0; i < n - 1; i++) {
+		int a, b; cin >> a >> b;
+		t[--a].push_back(--b);
+		t[b].push_back(a);
+	}
+
+	set <pair <int, int>> st;
+	function <int(int, int)> dfs = [&](int p, int c) {
+		int ch = 0;
+		for(auto i: t[c])
+			if(i != p)
+				ch += dfs(c, i);
+		if(ch != 0 && ch != n - 1) st.insert({ch, n - ch - 1});
+		return ch + 1;
+	}; dfs(-1, 0);
+
+	cout << st.size() << endl;
+	for(auto [a, b]: st)
+		cout << a << ' ' << b << endl;
+}

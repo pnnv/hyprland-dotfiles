@@ -1,0 +1,27 @@
+[
+  {
+      "platform": "GitHub",
+      "link": "https://github.com/username",
+      "username": "user1"
+  },
+  {
+      "platform": "Twitter",
+      "link": "https://twitter.com/username",
+      "username": "user2"
+  },
+  {
+      "platform": "LinkedIn",
+      "link": "https://linkedin.com/in/username",
+      "username": "user3"
+  },
+  {
+      "platform": "Facebook",
+      "link": "https://facebook.com/username",
+      "username": "user4"
+  },
+  {
+      "platform": "Instagram",
+      "link": "https://instagram.com/username",
+      "username": "user5"
+  }
+]

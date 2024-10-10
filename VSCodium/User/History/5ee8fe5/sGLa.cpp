@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	
+	int n; cin >> n;
+	vector <int> t, nt;
+	for (int i = 0; i < n; i++) {
+		int x; cin >> x;
+		if(x & 1) t.push_back(i);
+		else nt.push_back(i);
+	}
+
+	vector <vector <int>> dp(t.size(), vector <int>(nt.size(), -1));
+
+	function <int(int, int)> f = [&](int i, int j) {
+		if(i >= t.size() || j >= nt.size()) return int(1e8);
+		if(dp[i][j] != -1) return dp[i][j];
+		return dp[i][j] = min(abs(nt[j] - t[i]) + f(i + 1, j + 1), f(i, j + 1));
+	};
+
+	cout << f(0, 0) << endl;
+}

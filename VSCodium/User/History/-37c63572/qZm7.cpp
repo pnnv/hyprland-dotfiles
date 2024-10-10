@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	int n; cin >> n;
+	vector <ll> v(n);
+	for(auto &i: v) cin >> i;
+	
+	function <int (int, ll)> nimber = [&](int rem, ll op) {
+		set <int> st;
+		for(int i = 1; i <= rem; i++) 
+			if((op >> i) & 1LL) 
+				st.insert(nimber(rem - i, op ^ (1LL << i)));
+		int mex = 0;
+		for(int i = 0; i <= st.size(); i++) {
+			if(!st.count(i)) {
+				mex = i;
+				break;
+			}
+		}
+		return mex;
+	};
+
+	ll pp = 0;
+	for(auto i: v)
+		pp ^= nimber(i, (1L << (i + 1)) - 1);
+	cout << pp << endl;
+}

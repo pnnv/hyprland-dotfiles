@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+void snu() {
+	int n; cin >> n;
+	vector <ll> v(n);
+	map <ll, set <int>> fx;
+	
+	auto fax = [&](ll x, ll y) {
+		for(int i = 2; i * i <= x; i++) {
+			if(x % i == 0) {
+				
+			}
+		}
+	};
+
+	for(auto &i: v) cin >> i;
+	for (int i = 0; i < n; i++) {
+		for(int j = i + 1; j < n; j++) {
+			if(v[i] == v[j] && cout << "NO\n") return;
+			fax(abs(v[i] - v[j]), v[i]);
+		}
+	}
+
+}
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	int t; cin >> t;
+	while(t--) snu();
+}

@@ -1,0 +1,184 @@
+I[19:58:15.423] clangd version 16.0.2 (https://github.com/llvm/llvm-project 18ddebe1a1a9bde349441631365f0472e9693520)
+I[19:58:15.423] Features: linux+grpc
+I[19:58:15.423] PID: 75121
+I[19:58:15.423] Working directory: /home/pranav/code
+I[19:58:15.423] argv[0]: /home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/bin/clangd
+I[19:58:15.425] Starting LSP over stdin/stdout
+I[19:58:15.428] <-- initialize(0)
+I[19:58:15.439] --> reply:initialize(0) 11 ms
+I[19:58:15.443] <-- initialized
+I[19:58:15.450] <-- textDocument/didOpen
+I[19:58:15.453] <-- textDocument/didOpen
+I[19:58:15.453] <-- textDocument/didOpen
+I[19:58:15.453] <-- textDocument/didOpen
+I[19:58:15.453] Failed to find compilation database for /home/pranav/code/273278C.cpp
+I[19:58:15.453] Failed to find compilation database for /home/pranav/code/tmp.cpp
+I[19:58:15.453] ASTWorker building file /home/pranav/code/273278C.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/273278C.cpp
+I[19:58:15.453] ASTWorker building file /home/pranav/code/tmp.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/tmp.cpp
+I[19:58:15.453] Failed to find compilation database for /home/pranav/code/295B.cpp
+I[19:58:15.453] <-- textDocument/didOpen
+I[19:58:15.453] ASTWorker building file /home/pranav/code/295B.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/295B.cpp
+I[19:58:15.453] Failed to find compilation database for /home/pranav/code/Array_Concatanation.cpp
+I[19:58:15.454] <-- textDocument/didOpen
+I[19:58:15.454] ASTWorker building file /home/pranav/code/Array_Concatanation.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Array_Concatanation.cpp
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/E_Toward_0.cpp
+I[19:58:15.454] ASTWorker building file /home/pranav/code/E_Toward_0.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/E_Toward_0.cpp
+I[19:58:15.454] <-- textDocument/didOpen
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/Triangle_Count_Easy.cpp
+I[19:58:15.454] ASTWorker building file /home/pranav/code/Triangle_Count_Easy.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Triangle_Count_Easy.cpp
+I[19:58:15.454] <-- textDocument/didOpen
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/273278B.cpp
+I[19:58:15.454] <-- textDocument/didOpen
+I[19:58:15.454] ASTWorker building file /home/pranav/code/273278B.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/273278B.cpp
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/Add_1_or_2_Game.cpp
+I[19:58:15.454] ASTWorker building file /home/pranav/code/Add_1_or_2_Game.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Add_1_or_2_Game.cpp
+I[19:58:15.454] <-- textDocument/didOpen
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/Prefix_Suffix_Min_Max.cpp
+I[19:58:15.454] ASTWorker building file /home/pranav/code/Prefix_Suffix_Min_Max.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Prefix_Suffix_Min_Max.cpp
+I[19:58:15.454] <-- textDocument/didOpen
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/E_Minimize_Sum_of_Distances.cpp
+I[19:58:15.454] ASTWorker building file /home/pranav/code/E_Minimize_Sum_of_Distances.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/E_Minimize_Sum_of_Distances.cpp
+I[19:58:15.454] Failed to find compilation database for /home/pranav/code/Count_Winning_Subarrays.cpp
+I[19:58:15.454] ASTWorker building file /home/pranav/code/Count_Winning_Subarrays.cpp version 1 with command clangd fallback
+[/home/pranav/code]
+/usr/bin/clang -resource-dir=/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/lib/clang/16 -- /home/pranav/code/Count_Winning_Subarrays.cpp
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:15.493] --> textDocument/clangd.fileStatus
+I[19:58:16.021] <-- textDocument/documentLink(1)
+I[19:58:16.021] <-- textDocument/inlayHint(2)
+I[19:58:16.238] <-- textDocument/codeAction(3)
+I[19:58:16.241] <-- $/cancelRequest
+I[19:58:16.241] <-- textDocument/codeAction(4)
+I[19:58:16.241] <-- $/cancelRequest
+I[19:58:16.241] <-- textDocument/codeAction(5)
+I[19:58:16.241] <-- $/setTrace
+I[19:58:16.241] unhandled notification $/setTrace
+I[19:58:16.288] <-- textDocument/foldingRange(6)
+I[19:58:16.289] --> reply:textDocument/foldingRange(6) 1 ms
+I[19:58:16.309] <-- $/setTrace
+I[19:58:16.309] unhandled notification $/setTrace
+I[19:58:16.334] <-- $/cancelRequest
+I[19:58:16.347] <-- $/cancelRequest
+I[19:58:16.347] <-- textDocument/codeAction(7)
+I[19:58:16.467] <-- textDocument/documentLink(8)
+I[19:58:16.566] <-- $/setTrace
+I[19:58:16.566] unhandled notification $/setTrace
+I[19:58:17.356] Indexing c++17 standard library in the context of /home/pranav/code/Add_1_or_2_Game.cpp
+I[19:58:17.360] <-- $/setTrace
+I[19:58:17.360] unhandled notification $/setTrace
+I[19:58:17.388] <-- textDocument/documentSymbol(9)
+I[19:58:17.396] <-- $/cancelRequest
+I[19:58:17.396] <-- textDocument/codeAction(10)
+I[19:58:17.823] Built preamble of size 13551312 for file /home/pranav/code/Add_1_or_2_Game.cpp version 1 in 2.33 seconds
+I[19:58:17.827] --> workspace/semanticTokens/refresh(0)
+I[19:58:17.829] --> textDocument/clangd.fileStatus
+I[19:58:17.831] <-- reply(0)
+I[19:58:17.869] Built preamble of size 13551328 for file /home/pranav/code/Prefix_Suffix_Min_Max.cpp version 1 in 2.37 seconds
+I[19:58:17.872] Built preamble of size 13551388 for file /home/pranav/code/Triangle_Count_Easy.cpp version 1 in 2.38 seconds
+I[19:58:17.876] --> workspace/semanticTokens/refresh(1)
+I[19:58:17.876] --> workspace/semanticTokens/refresh(2)
+I[19:58:17.876] --> textDocument/clangd.fileStatus
+I[19:58:17.879] <-- reply(1)
+I[19:58:17.880] <-- reply(2)
+I[19:58:17.916] Built preamble of size 13551284 for file /home/pranav/code/273278C.cpp version 1 in 2.42 seconds
+I[19:58:17.920] --> workspace/semanticTokens/refresh(3)
+I[19:58:17.920] --> textDocument/clangd.fileStatus
+I[19:58:17.922] <-- reply(3)
+I[19:58:17.923] Built preamble of size 13551284 for file /home/pranav/code/273278B.cpp version 1 in 2.43 seconds
+I[19:58:17.927] --> workspace/semanticTokens/refresh(4)
+I[19:58:17.927] --> textDocument/clangd.fileStatus
+I[19:58:17.929] --> textDocument/publishDiagnostics
+I[19:58:17.930] --> textDocument/clangd.fileStatus
+I[19:58:17.933] <-- reply(4)
+I[19:58:17.944] Built preamble of size 13551348 for file /home/pranav/code/E_Minimize_Sum_of_Distances.cpp version 1 in 2.45 seconds
+I[19:58:17.947] --> workspace/semanticTokens/refresh(5)
+I[19:58:17.947] Built preamble of size 13551336 for file /home/pranav/code/Count_Winning_Subarrays.cpp version 1 in 2.45 seconds
+I[19:58:17.950] <-- reply(5)
+I[19:58:17.952] --> workspace/semanticTokens/refresh(6)
+I[19:58:17.952] --> textDocument/clangd.fileStatus
+I[19:58:17.954] --> textDocument/publishDiagnostics
+I[19:58:17.954] <-- reply(6)
+I[19:58:17.954] --> textDocument/clangd.fileStatus
+I[19:58:17.975] --> textDocument/publishDiagnostics
+I[19:58:17.975] --> textDocument/clangd.fileStatus
+I[19:58:17.977] --> textDocument/publishDiagnostics
+I[19:58:17.979] --> reply:textDocument/documentLink(1) 1958 ms, error: Task was cancelled.
+[Error - 19:58:17] Request textDocument/documentLink failed.
+[object Object]
+I[19:58:17.981] --> reply:textDocument/inlayHint(2) 1960 ms
+I[19:58:17.982] --> reply:textDocument/codeAction(3) 1743 ms, error: Task was cancelled.
+I[19:58:17.982] --> reply:textDocument/codeAction(4) 1740 ms, error: Task was cancelled.
+I[19:58:17.982] --> reply:textDocument/codeAction(5) 1740 ms, error: Task was cancelled.
+I[19:58:17.982] --> reply:textDocument/codeAction(7) 1634 ms, error: Task was cancelled.
+I[19:58:17.982] --> reply:textDocument/documentLink(8) 1514 ms
+I[19:58:17.982] --> textDocument/publishDiagnostics
+I[19:58:17.982] --> reply:textDocument/documentSymbol(9) 594 ms
+I[19:58:17.982] --> textDocument/clangd.fileStatus
+I[19:58:17.983] --> reply:textDocument/codeAction(10) 587 ms
+I[19:58:17.983] --> textDocument/clangd.fileStatus
+I[19:58:17.998] --> textDocument/publishDiagnostics
+I[19:58:17.999] --> textDocument/clangd.fileStatus
+[Error - 19:58:18] Request textDocument/codeAction failed.
+[object Object]
+[Error - 19:58:18] Request textDocument/codeAction failed.
+[object Object]
+[Error - 19:58:18] Request textDocument/codeAction failed.
+[object Object]
+[Error - 19:58:18] Request textDocument/codeAction failed.
+[object Object]
+I[19:58:18.048] Built preamble of size 13551324 for file /home/pranav/code/Array_Concatanation.cpp version 1 in 2.55 seconds
+I[19:58:18.050] --> workspace/semanticTokens/refresh(7)
+I[19:58:18.050] --> textDocument/clangd.fileStatus
+I[19:58:18.052] <-- reply(7)
+I[19:58:18.084] Built preamble of size 13551292 for file /home/pranav/code/E_Toward_0.cpp version 1 in 2.59 seconds
+I[19:58:18.086] Built preamble of size 13551272 for file /home/pranav/code/tmp.cpp version 1 in 2.59 seconds
+I[19:58:18.087] --> workspace/semanticTokens/refresh(8)
+I[19:58:18.087] --> textDocument/clangd.fileStatus
+I[19:58:18.088] <-- reply(8)
+I[19:58:18.088] --> workspace/semanticTokens/refresh(9)
+I[19:58:18.089] <-- reply(9)
+I[19:58:18.107] --> textDocument/publishDiagnostics
+I[19:58:18.108] --> textDocument/publishDiagnostics
+I[19:58:18.109] --> textDocument/clangd.fileStatus
+I[19:58:18.109] --> textDocument/clangd.fileStatus
+I[19:58:18.129] Built preamble of size 13551272 for file /home/pranav/code/295B.cpp version 1 in 2.63 seconds
+I[19:58:18.130] --> workspace/semanticTokens/refresh(10)
+I[19:58:18.130] --> textDocument/clangd.fileStatus
+I[19:58:18.130] --> textDocument/clangd.fileStatus
+I[19:58:18.131] <-- reply(10)
+I[19:58:18.139] --> textDocument/publishDiagnostics
+I[19:58:18.143] --> textDocument/clangd.fileStatus
+I[19:58:18.177] --> textDocument/publishDiagnostics
+I[19:58:18.179] --> textDocument/clangd.fileStatus
+I[19:58:18.343] --> textDocument/publishDiagnostics
+I[19:58:18.344] --> textDocument/clangd.fileStatus
+I[19:58:19.522] Indexed c++17 standard library: 13173 symbols, 10384 filtered

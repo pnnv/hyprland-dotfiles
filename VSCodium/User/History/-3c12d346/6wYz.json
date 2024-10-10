@@ -1,0 +1,230 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.path": "/home/pranav/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/bin/clangd",
+    "editor.fontSize": 19,
+    // "editor.fontFamily": "Cartograph CF",
+    // "editor.fontFamily": "Iosevka NF",
+    "editor.fontFamily": "JetBrains Mono",
+    // "editor.fontFamily": "Operator-caska",
+    "editor.fontLigatures": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+	"security.workspace.trust.enabled": false,
+    "editor.minimap.side": "left",
+    "editor.minimap.scale": 1,
+    "extensions.autoUpdate": false,
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    // "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.titleBarStyle": "native",
+    // "window.menuBarVisibility": "toggle",
+    "window.restoreWindows": "all",
+    "files.hotExit": "onExit",
+    "workbench.startupEditor": "none",
+    // "explorer.confirmDelete": false,
+    "tabnine.experimentalAutoImports": true,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+      "*.pl": "prolog"
+    },
+    // "security.workspace.trust.enabled": false,
+    // "editor.minimap.enabled": false,
+    // "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    // "editor.fontFamily": "Aesthetic Iosevka Original, monospace",
+    // "editor.fontLigatures": true,
+    // "editor.fontSize": 13,
+    "workbench.list.smoothScrolling": true,
+    //   "workbench.colorTheme": "",
+    // "workbench.iconTheme": "material-icon-theme",
+    // "workbench.productIconTheme": "icons-carbon",
+
+	
+    
+
+	"workbench.colorCustomizations": {
+		"list.activeSelectionBackground": "#090909",
+		"list.hoverBackground": "#070707",
+		"editorWidget.background": "#070707",
+		"panel.background": "#070707",
+		"titleBar.activeBackground": "#070707",
+		"breadcrumbPicker.background": "#070707",
+		"settings.dropdownBackground": "#070707",
+		"settings.numberInputBackground": "#070707",
+		"settings.textInputBackground": "#070707",
+		"settings.checkboxBackground": "#070707",
+		"editor.background": "#0b0b0b",
+		"tab.activeBackground": "#080809",
+		"tab.inactiveBackground": "#0b0b0b",
+		"sideBar.background": "#030604",
+		"sideBar.dropBackground": "#080809",
+		"sideBarSectionHeader.background": "#080809",
+		"activityBar.background": "#080809",
+		"statusBar.background": "#080809",
+		"scrollbarSlider.activeBackground": "#080809",
+		"tab.activeBorder": "#0b0b0b00",
+		"editorGroupHeader.tabsBackground": "#0b0b0b",
+		"statusBar.noFolderBackground": "#0b0b0b",
+		"tab.border": "#0b0b0b",
+		"editorHoverWidget.background": "#0b0b0b",
+		"menu.background": "#0b0b0b",
+		"debugToolBar.background": "#0b0b0b",
+		"editorBracketMatch.background": "#5c5c5c",
+		"quickInput.background": "#0b0b0b",
+		"editorOverviewRuler.border": "#0b0b0b",
+		"notifications.background": "#0b0b0b",
+		"breadcrumb.background": "#0b0b0b",
+		"terminal.background": "#0b0b0b",
+		"terminal.foreground": "#d3d1d0",
+		"terminal.selectionBackground": "#1d242b",
+		"terminal.ansiBlack": "#171d23",
+		"terminal.ansiRed": "#d65358",
+		"terminal.ansiGreen": "#6ea085",
+		"terminal.ansiYellow": "#d38570",
+		"terminal.ansiBlue": "#5e84bb",
+		"terminal.ansiMagenta": "#ac76d5",
+		"terminal.ansiCyan": "#5ea4b3",
+		"terminal.ansiWhite": "#d3d1d0",
+		"terminal.ansiBrightBlack": "#3e454f",
+		"terminal.ansiBrightRed": "#e05a61",
+		"terminal.ansiBrightGreen": "#7ecf9c",
+		"terminal.ansiBrightYellow": "#e38c76",
+		"terminal.ansiBrightBlue": "#6fa3e3",
+		"terminal.ansiBrightMagenta": "#b784e3",
+		"terminal.ansiBrightCyan": "#6ec6db",
+		"terminal.ansiBrightWhite": "#dfdfdf",
+		"editorGutter.background": "#0b0b0b"
+	},
+	
+	// "workbench.colorCustomizations": {
+    //   "list.activeSelectionBackground": "#0A1010",
+    //   "list.hoverBackground": "#050508",
+    //   "editorWidget.background": "#050508",
+    //   "panel.background": "#050508",
+    //   "titleBar.activeBackground": "#050508",
+    //   "breadcrumbPicker.background": "#050508",
+    //   "settings.dropdownBackground": "#050508",
+    //   "settings.numberInputBackground": "#050508",
+    //   "settings.textInputBackground": "#050508",
+    //   "settings.checkboxBackground": "#050508",
+    //   "editor.background": "#0e0e0e",
+    //   "tab.activeBackground": "#000A0E",
+    //   "tab.inactiveBackground": "#0e0e0e",
+    //   "sideBar.background": "#040805",
+    //   "sideBar.dropBackground": "#000A0E",
+    //   "sideBarSectionHeader.background": "#000A0E",
+    //   "activityBar.background": "#000A0E",
+    //   "statusBar.background": "#000A0E",
+    //   "scrollbarSlider.activeBackground": "#000A0E",
+    //   "tab.activeBorder": "#0e0e0e00",
+    //   "editorGroupHeader.tabsBackground": "#0e0e0e",
+    //   "statusBar.noFolderBackground": "#0e0e0e",
+    //   "tab.border": "#0e0e0e",
+    //   "editorHoverWidget.background": "#0e0e0e",
+    //   "menu.background": "#0e0e0e",
+    //   "debugToolBar.background": "#0e0e0e",
+    //   "editorBracketMatch.background": "#666666",
+    //   "quickInput.background": "#0e0e0e",
+    //   "editorOverviewRuler.border": "#0e0e0e",
+    //   "notifications.background": "#0e0e0e",
+    //   "breadcrumb.background": "#0e0e0e",
+    //   "terminal.background": "#0e0e0e",
+    //   "terminal.foreground": "#d9d7d6",
+    //   "terminal.selectionBackground": "#242f33",
+    //   "terminal.ansiBlack": "#1c252c",
+    //   "terminal.ansiRed": "#df5b61",
+    //   "terminal.ansiGreen": "#78b892",
+    //   "terminal.ansiYellow": "#de8f78",
+    //   "terminal.ansiBlue": "#6791c9",
+    //   "terminal.ansiMagenta": "#bc83e3",
+    //   "terminal.ansiCyan": "#67afc1",
+    //   "terminal.ansiWhite": "#d9d7d6",
+    //   "terminal.ansiBrightBlack": "#484e5b",
+    //   "terminal.ansiBrightRed": "#f16269",
+    //   "terminal.ansiBrightGreen": "#8cd7aa",
+    //   "terminal.ansiBrightYellow": "#e9967e",
+    //   "terminal.ansiBrightBlue": "#79aaeb",
+    //   "terminal.ansiBrightMagenta": "#c488ec",
+    //   "terminal.ansiBrightCyan": "#7acfe4",
+    //   "terminal.ansiBrightWhite": "#e5e5e5"
+    // },
+    // "customizeUI.activityBar": "bottom",
+    // "customizeUI.titleBar": "inline",
+    // "customizeUI.font.regular": "Roboto",
+    // "customizeUI.fontSizeMap": {
+    //   "13px": "12px",
+    //   "monospace": "12px"
+    // },
+    // "customizeUI.stylesheet": {
+    //   ".tabs-container ": "padding-top:7px; padding-left:2px; padding-bottom:5px",
+    //   ".tabs-container > .tab": "border-radius: 7px 7px 7px 7px; height: 20px; margin-left: 5px; padding-right:4px",
+    //   ".monaco-editor .suggest-widget": "border-radius: 10px 10px 10px 10px; overflow:hidden;"
+    // },
+    // "[python]": {
+    //   "editor.defaultFormatter": "ms-python.black-formatter"
+    // },
+    // "[html]": {
+    //   "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+    // },
+    // "python.analysis.extraPaths": [
+    //   "/home/pranav/.vscode/extensions/continue.continue-0.6.18-linux-x64"
+    // ],
+    // "python.autoComplete.extraPaths": [
+    //   "/home/pranav/.vscode/extensions/continue.continue-0.6.18-linux-x64"
+    // ],
+    "terminal.integrated.commandsToSkipShell": [
+      "language-julia.interrupt"
+    ],
+    // "julia.symbolCacheDownload": true,
+    "window.zoomLevel": -1,
+    "cph.general.defaultLanguage": "cpp",
+    "debug.console.fontSize": 18.4,
+    "chat.editor.fontSize": 17,
+    // "[julia]": {
+    //   "editor.defaultFormatter": "julialang.language-julia"
+    // },
+    // "codepal.codeforcesHandle": "pnus",
+    "[cpp]": {
+      "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+  "editor.insertSpaces": false,
+"editor.detectIndentation": false,
+"cph.general.useShortCodeForcesName": true,
+"cph.language.cpp.SubmissionCompiler": "GNU G++20 13.2 (64 bit, winlibs)",
+"workbench.colorTheme": "Google Monokai",
+"editor.minimap.enabled": false,
+"workbench.statusBar.visible": false,
+"editor.stickyScroll.enabled": false,
+"workbench.sideBar.location": "right",
+"workbench.editor.showTabs": "none",
+// "editor.cursorStyle": "underline",
+    // "editor.tabSize": 4,
+    // "[javascriptreact]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "editor.tokenColorCustomizations": {
+    //   "textMateRules": [
+    //     {
+    //       "scope": [
+    //         "comment",
+    //         "entity.name.type.class", // class names
+    //         "keyword", // import, export, return
+    //         "constant", // String, Number, Boolean..., this, super
+    //         "storage.type",
+    //         "variable.language.this.cpp"
+    //       ],
+    //       "settings": {
+    //         "fontStyle": "italic " // comments are italic
+    //       }
+    //     },
+    //   ]
+    // },
+  }
